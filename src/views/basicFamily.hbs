@@ -1,0 +1,376 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Basic/Family</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon"  src="img/Sy.png"  alt="">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- header-start -->
+   {{>header}}
+    <!-- header-end -->
+
+    
+        <!-- service_area_start -->
+        <div class="service_area">
+            <div class="container p-0">
+                <div class="row no-gutters">
+                    <div class="col-xl-6 col-md-6">
+                        <div class="single_service">
+                            <h3>Basic Family Plan</h3>
+                        <p style="margin-top:10px"> Premium per Life per Annum: ₦30,000</p>
+                            <img src="img/BasicFamily.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+                        </div>
+                    </div>
+                
+                    <div  class="col-xl-6 col-md-6">
+                        <div class="single_service">
+                            <form action="basicFamily" class="needs-validation" method="POST">
+                                <div style="margin-top:80px"class="form-group">
+                                  <label for="name">Name:</label>
+                                  <input type="text" class="form-control" id="uname" placeholder="Enter username" name="name" required>
+                                  <div class="valid-feedback">Valid.</div>
+                                  <div class="invalid-feedback">Please fill out this field.</div>
+                                </div>
+                                <div class="form-group">
+                                  <label for="Phone">Phone Number:</label>
+                                  <input type="number" class="form-control" id="password" placeholder="Enter Phone Number" name="password" required>
+                                  <div class="valid-feedback">Valid.</div>
+                                  <div class="invalid-feedback">Please fill out this field.</div>
+                                </div>
+                                <div class="form-group">
+                                  <label for="Email">Email:</label>
+                                  <input type="text" class="form-control" id="email" placeholder="Enter Email" name="email" required>
+                                  <div class="valid-feedback">Valid.</div>
+                                  <div class="invalid-feedback">Please fill out this field.</div>
+                                </div>
+                                <div class="form-group form-check">
+                                  <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox" name="remember" required> I agree on blabla.
+                                    <div class="valid-feedback">Valid.</div>
+                                    <div class="invalid-feedback">Check this checkbox to continue.</div>
+                                  </label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Pay Annualy</button>
+                                <button type="submit" class="btn btn-primary">Pay Monthly</button>
+                              </form>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- service_area_end -->
+
+
+      <div class="container">
+          <br>
+          <div class="input-group mb-4">
+            <div class="input-group-prepend">
+              <button id="button-addon7" type="submit" class="btn btn-success"><i class="fa fa-search"></i></button>
+            </div>
+            <input  class ="form-control" id="myInput" type="text" placeholder="What're you searching for?" aria-describedby="button-addon7" class="form-control">
+          </div>
+ 
+        <br>
+        <table class="table table-striped">
+          <thead class="dby">
+            <tr>
+              <th>Plan</th>
+              <th>Cover</th>
+            </tr>
+          </thead>
+          <tbody id="myTable">
+            <tr>
+                <td class="services">Region of Cover </td>
+              <td>Domestic</td>
+            </tr>
+            <tr>
+              <td>General Consultation</td>
+              <td>General Practitioner</td>
+            </tr>
+            <tr>
+              <td class="services">Hospitalization for Covered Services <a href="#" data-toggle="tooltip" title="
+                -onyemajhvjvkjkvjjvjvjvhvjv
+                -chikavhjjhvjhjhjhvjvhjhbv
+                -vincenthjvhjvjhvvhjhvj
+                -anarchist is goodhmvhjjhvjhvnm">
+                <img class="alignnone size-full wp-image-6523" src="https://static.avonhealthcare.com/uploads/2016/12/15.jpg" alt="15" width="15" height="15" /></a></td></td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+                <td class="services">Emergency Services <span class="tooltips "  title="This includes:&lt;br /&gt;
+                    - Emergency Room Stabilization &lt;br /&gt;
+                    -Hospital to hospital evacuation&lt;br /&gt;
+                    "><img class="alignnone size-full wp-image-6523" src="https://static.avonhealthcare.com/uploads/2016/12/15.jpg" alt="15" width="15" height="15" /></span></td></td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td class="services">Diagnostic Services <span class="tooltips " title="This includes:&lt;br /&gt;
+                    - Emergency Room Stabilization &lt;br /&gt;
+                    -Full Blood Count (FBC)
+                    -HB/PCV
+                    -Platelets
+                    -RBC
+                    -WBC
+                    -Reticulocyte count
+                    -Haemoglobin
+                    -L. E Cells
+                    -DIFF &lt;br /&gt;
+                    "><img class="alignnone size-full wp-image-6523" src="https://static.avonhealthcare.com/uploads/2016/12/15.jpg" alt="15" width="15" height="15" /></span></td></td>
+                <td>Yes</td>
+                
+              </tr>
+              <tr>
+                <td>Radiology
+                    <a href="#" title="Header" data-toggle="popover" data-placement="top" data-content="Content"><img class="alignnone size-full wp-image-6523" src="https://static.avonhealthcare.com/uploads/2016/12/15.jpg" alt="15" width="15" height="15" /></a>
+                      
+                  </td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Ultrasonology    
+                    </td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                  <td>Obstetrics and Gynaecology & Maternity</td>
+                 <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>Family Planning / Birth-control</td>
+                    <td>Yes</td> 
+            </tr>
+            <tr>
+                <td>Neonatal Services</td>
+                <td>Yes</td>
+            </tr>
+              <tr>
+                <td>Region of Cover</td>
+                <td>Domestic</td>
+            </tr>
+              <tr>
+                <td>NPI Immunization</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Ambulance Services</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Optical services</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                  <td>Dental Services</td>
+                  <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>Surgical Services</td>
+                    <td>Minor</td>
+                  </tr>
+                  <tr>
+                    <td>Wellness and Preventive Service</td>
+                    <td>Physical Examination</td>
+                  </tr>
+                  <tr>
+                    <td>Mental Health Services</td>
+                    <td>Counselling</td>
+                  </tr>
+                  <tr>
+                    <td>HIV Management</td>
+                    <td>Yes</td>
+                  </tr>    
+          </tbody>
+        </table>
+     </div> 
+      
+     
+        <div style="margin-left:40px" class="container-fluid p-0">
+                <div class="col-xl-12"> 
+          <h4>Exclusions</h4>
+          <p>The under listed care cases are excluded from the scheme but not limited to</p>
+          <ol type="1">
+            <li>Management of Autoimmune diseases.</li>	
+            <li>Cosmetic/plastic/complex surgeries</li>	
+            <li>Organ transplant.</li>	
+            <li>Experimental treatments, Herbal/Drug supplements, Nutritional supplements.</li>	
+            <li>Congenital conditions including re-circumcision.</li>	
+            <li>Neuro-cognitive/speech therapy.</li>	
+            <li>Non-therapeutic termination of pregnancy.</li>	
+            <li>Attempted suicide.</li>	
+            <li>Prosthesis – dentures; artificial body parts, etc.</li>	
+            <li>Physical Assault, battery, etc. </li>	
+            <li>Sporting, war, riot, etc related injuries.</li>	
+            <li>Coverage out of policy scope.</li>
+        </ol>  
+      </div>
+    </div>
+
+>
+    
+
+    <!-- Emergency_contact start -->
+    <div class="Emergency_contact">
+        <div class="container-fluid p-0">
+            <div class="row no-gutters">
+                <div class="col-xl-6">
+                    <div class="single_emergency d-flex align-items-center justify-content-center emergency_bg_1 overlay_skyblue">
+                        <div class="info">
+                            <h3>For Any Emergency Contact</h3>
+                            <p>Esteem spirit temper too say adieus.</p>
+                        </div>
+                        <div class="info_button">
+                            <a href="#" class="boxed-btn3-white">">+234 70 30 586 560</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="single_emergency d-flex align-items-center justify-content-center emergency_bg_2 overlay_skyblue">
+                        <div class="info">
+                            <h3>Make an Online Appointment</h3>
+                            <p>Esteem spirit temper too say adieus.</p>
+                        </div>
+                        <div class="info_button">
+                            <a href="#" class="boxed-btn3-white">Make an Appointment</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Emergency_contact end -->
+
+<!-- footer start -->
+{{>footer}}
+<!-- footer end  -->
+    <!-- link that opens popup -->
+
+    <!-- form itself end-->
+    <form id="test-form" class="white-popup-block mfp-hide">
+        <div class="popup_box ">
+            <div class="popup_inner">
+                <h3>Make an Appointment</h3>
+                <form action="#">
+                    <div class="row">
+                        <div class="col-xl-6">
+                            <input id="datepicker" placeholder="Pick date">
+                        </div>
+                        <div class="col-xl-6">
+                            <input id="datepicker2" placeholder="Suitable time">
+                        </div>
+                        <div class="col-xl-6">
+                            <select class="form-select wide" id="default-select" class="">
+                                <option data-display="Select Department">Department</option>
+                                <option value="1">2</option>
+                                <option value="2">3</option>
+                                <option value="3">4</option>
+                            </select>
+                        </div>
+                        <div class="col-xl-6">
+                            <select class="form-select wide" id="default-select" class="">
+                                <option data-display="Doctors">Doctors</option>
+                                <option value="1">2</option>
+                                <option value="2">3</option>
+                                <option value="3">4</option>
+                            </select>
+                        </div>
+                        <div class="col-xl-6">
+                            <input type="text"  placeholder="Name">
+                        </div>
+                        <div class="col-xl-6">
+                            <input type="text"  placeholder="Phone no.">
+                        </div>
+                        <div class="col-xl-12">
+                            <input type="email"  placeholder="Email">
+                        </div>
+                        <div class="col-xl-12">
+                            <button type="submit" class="boxed-btn3">Confirm</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </form>
+    <!-- form itself end -->
+
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/gijgo.min.js"></script>
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+
+    <script src="js/main.js"></script>
+    <script>
+        $('#datepicker').datepicker({
+            iconsLibrary: 'fontawesome',
+            icons: {
+                rightIcon: '<span class="fa fa-caret-down"></span>'
+            }
+        });
+        $('#datepicker2').datepicker({
+            iconsLibrary: 'fontawesome',
+            icons: {
+                rightIcon: '<span class="fa fa-caret-down"></span>'
+            }
+
+        });
+    $(document).ready(function() {
+    $('.js-example-basic-multiple').select2();
+});
+
+
+    </script>
+
+
+
+</body>
+
+</html>
